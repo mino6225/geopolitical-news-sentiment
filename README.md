@@ -3,8 +3,7 @@ A Python tool that pulls live international news headlines via the NewsAPI and r
 NLP sentiment analysis to track geopolitical risk signals across high-risk countries 
 and jurisdictions — with a focus on Eurasian and sanctioned states.
 
-Built independently as a continuation of applied work in cross-border risk intelligence 
-and Eurasian political economy.
+Built using an AI-directed development workflow — directing the build and prompting through architecture and logic decisions, then independently implementing, testing, and debugging the code. Part of a continuing focus on cross-border risk intelligence and Eurasian political economy.
 
 ## What It Does
 - Pulls up to 50 live news headlines per country using the NewsAPI
@@ -51,7 +50,7 @@ Python 3.14 · NewsAPI · VADER Sentiment · pandas · matplotlib · seaborn · 
 
 ## Setup
 1. Sign up for a free API key at newsapi.org
-2. Create a file called `NewsAPI_Key` in the project folder containing:
+2. Create a file called `NewsAPI_Key.env` in the project folder containing:
    `NEWSAPI_KEY=your_key_here`
 3. Run all cells in order
 
